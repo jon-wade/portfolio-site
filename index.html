@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"
+            integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <title>Jon Wade | Portfolio</title>
+</head>
+<body>
+    <!-- script to allow user-agent detection for Chrome on iPhone -->
+    <script>
+        var b = document.documentElement;
+        //document.write(navigator.userAgent);
+        b.setAttribute('data-useragent',  navigator.userAgent);
+        b.setAttribute('data-platform', navigator.platform );
+        b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
+    </script>
+    <h1>Jon Wade | Portfolio</h1>
+    <div id="links">
+        <a href="./index.html" title="home page"><img src="img/home-62x50.png" width="31px" height="25px" alt="home icon"></a>
+        <a href="" title="info about jon wade"><img id="info" src="img/info-50x50.png" width="25px" height="25px" alt="info icon"></a>
+        <a href="https://github.com/jon-wade" title="jon-wade github" rel="external" target="_blank"><img src="img/github-logo-51x50.png" width="25px" height="25px" alt="github icon"></a>
+        <a href="mailto:jonwadeuk@gmail.com" title="email jon wade" target="_blank"><img src="img/email-63x50.png" width="31px" height="25px" alt="email icon"></a>
+        <a href="https://uk.linkedin.com/in/jonwadeuk" title="linkedin jon wade" target="_blank"><img src="img/linkedin-logo-51x50.png" width="25px" height="25px" alt="linkedin icon"></a>
+        <a href="https://twitter.com/jonwade_digital" title="twitter jonwade_digital" target="_blank"><img src="img/twitter-logo-50x50.png" width="25px" height="25px" alt="info icon"></a>
+    </div>
+    <div class="case" id="betfriend"><a href="https://github.com/jon-wade/betfriend-mean" title="Betfriend F1 github repo" rel="external">Betfriend F1</a></div>
+    <div class="case" id="incite"><a href="https://github.com/jon-wade/guardian-api" title="Incite News github repo">Incite News</a></div>
+    <div class="case" id="vault"><a href="https://github.com/jon-wade/pw-vault" title="Password Vault github repo" rel="external">Password Vault</a></div>
+    <h2>Full-stack Javascript Developer</h2>
+
+
+
+
+    <!--<div>Icons made by <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+</body>
+
+</html>
