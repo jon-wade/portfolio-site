@@ -11,7 +11,7 @@ $(document).ready(function () {
         $(this).css('background-color', 'rgba(255, 0, 0, 0.5)');
     });
 
-    // $('div#incite').click(function() {window.open('https://github.com/jon-wade/guardian-api', '_blank');});
+    $('div#incite').click(function() {window.open('https://github.com/jon-wade/incite-news', '_blank');});
 
     $('div#incite').on('mouseover', function() {
         $(this).css('background-color', 'rgba(255,0,255,0.5)');
